@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Book</title>
+    <link rel="stylesheet" href="phonebook.css">
+</head>
+
+<body>
+    <h1>Phone Book</h1>
+    <form name="myForm" onsubmit="event.preventDefault();OnFormSubmit()">
+        <div class="container">
+            <div id="fname">
+                First Name: <input type="text" name="fsname" id="fsname" placeholder=" Enter your first name "><br>
+                <span class="formerror"></span>
+            </div>
+            <div id="lname">
+                Last Name: <input type="text" name="ltname" id="ltname" placeholder="Enter your last name "><br>
+                <span class="formerror"></span>
+            </div>
+            <div id="fphone">
+                Phone: <input type="text" name="phone" id="phone" placeholder="Enter your phone number "><br>
+                <span class="formerror"></span>
+            </div>
+            <div id="sub">
+                <input type="submit" value="Add" id="submit">
+            </div>
+        </div>
+    </form>
+    <table id="show">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone </th>
+            <th>CRUD</th>
+        </tr>
+    </table>
+    <script src="phonebook.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+input {
+    font-size: 15px;
+}
+.container{
+    display: flex;
+   margin: 20px;
+
+}
+
+.formerror{
+    color: red;
+    font-size: 15px;
+    margin-left:50px;
+}
+#lname{
+   margin-left: 20px;
+}
+#fphone{
+    margin-left: 20px;
+}
+
+#sub{
+    margin-left: 20px;
+}
+
+#tasklist {
+    font-size: 18px;   
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin:50px 0px;
+    padding:10px 70px;
+}
